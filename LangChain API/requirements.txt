@@ -1,4 +1,4 @@
-langchain
-streamlit
-openai
-python
+langchain==0.1.12
+streamlit==1.32.2
+openai==1.14.1
+python==3.10.12
