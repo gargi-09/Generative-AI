@@ -40,7 +40,7 @@ def generate_response(name):
 
   return reply
 st.title("ALL OUT OF MOVIES")
-st.image("movie_banner.webp")
+st.image("LangChain/Movie_Recommender/movie_banner.webp")
 prompt = st.text_input(label="Type a name of any movie.")
 if st.button("Submit"):
   info_dir = generate_response(prompt)
